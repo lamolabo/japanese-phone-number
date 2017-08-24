@@ -1,0 +1,28 @@
+{
+  "name": "lamolabo/japanese-phone-number",
+  "version": "0.1",
+  "description": "japanese-phone-number",
+  "keywords": [],
+  "license": "",
+  "type": "package",
+  "require": {
+    "php": ">=5.6.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lamolabo\\JapanesePhoneNumber\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
+}
